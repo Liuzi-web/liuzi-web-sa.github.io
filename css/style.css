@@ -1,0 +1,251 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: 微软雅黑;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	overflow-x: hidden;
+	background: url(../image/body-bj.jpg);
+	background-size: cover;
+}
+
+/* 轮播 */
+.banner {
+	width: 100%;
+	height: 650px;
+	position: relative;
+	top: 0;
+}
+
+.banner .move {
+	width: 100%;
+	height: 100%;
+}
+.move ul,
+.move ul li {
+	position: absolute;
+	background-size: cover;
+	
+}
+.ctrl {
+	position: absolute;
+	width: 100%;
+	bottom: -30px;
+	text-align: center;
+}
+
+.ctrl .libs {
+	display: inline-block;
+	margin-left: 10px;
+	width: 40px;
+	height: 4px;
+	background:#000;
+	z-index: 50;
+	cursor: pointer;
+}
+.ctrl span.active {
+	background:url(../image/span.png);
+}
+
+.ctrl .arrow {
+	display: none;
+}
+
+.ctrl .arrow:hover {
+	opacity: 1;
+}
+
+/* ///轮播 */
+
+.main-nav {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.mbg{
+	padding: 0 20%;
+}
+
+.main-warp {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20.5%;
+	padding-right: 24%;
+	padding-top: 4%;
+}
+
+.main-warp img {
+	cursor: pointer;
+}
+
+.main-warp img:hover {
+	animation: fu 1.6s linear infinite;
+}
+
+@keyframes fu {
+	25% {
+		transform: translateY(-10px);
+	}
+
+	50% {
+		transform: translateY(0px);
+	}
+
+	75% {
+		transform: translateY(10px);
+	}
+}
+
+
+/* 轮播2 */
+.box {
+	overflow: hidden;
+	position: absolute;
+	top: 30%;
+	right: 20%;
+}
+.border {
+	transform: translateY(-50%);
+	height: 80%;
+	position: relative;
+	top: 50%;
+}
+
+.slide {
+	width: 100%;
+	position: relative;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	-webkit-transition: left .5s;
+}
+
+.slide-active-r {
+	left: -30px;
+}
+
+.slide-active-l {
+	left: 30px;
+}
+
+.shift {
+	position: absolute;
+	z-index: 1;
+	height: 100%;
+	-webkit-transition: opacity .5s, width .1s, margin .5s;
+}
+
+.shift-active {
+	width: 66px;
+	opacity: .65;
+}
+
+.left {
+	left: -33px;
+}
+
+.right {
+	right: -33px;
+}
+
+i.shift {
+	height: 45px;
+	transform: translateY(-50%);
+	background-color: transparent;
+	background-image: url(../image/star/angle.png);
+	background-size: auto;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	top: 50%;
+}
+
+i.left {
+	background-position: 0 0px;
+}
+
+i.right {
+	background-position: -28px 0px;
+}
+
+.i-active {
+	width: 28px;
+	opacity: 1;
+	margin: 0 36px;
+}
+
+.i-active-move {
+	margin: 0 18px;
+}
+
+.box ul {
+	white-space: nowrap;
+	font-size: 0;
+	transition: transform 0.5s ease-out;
+}
+
+.box ul li {
+	display: inline-block;
+}
+/* ///轮播2 */
+
+
+/* 视频 */
+.videolist {
+	position: absolute;
+	top: 60%;
+	left: 41%;
+	transform: translate(-50%,-50%);
+}
+.videoed {
+	z-index: 99;
+	cursor: pointer;
+}
+
+.videos {
+	width: 1400px;
+	z-index: 100;
+	display: none;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.vclose {
+	position: absolute;
+	right: 0%;
+	top: -4%;
+	cursor: pointer;
+}
+/* ///视频 */
+
+
+
+
+.btn{
+	color: #fff;
+	width: 100px;
+	height: 40px;
+	z-index: 999;
+	display: none;
+	cursor: pointer;
+	background: #000;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 10px;
+	position: fixed;
+	bottom: 10%;
+	right: 4%;
+}
+.btn:hover{
+	background: url(../image/body-bj.jpg);
+	background-size: cover;
+}

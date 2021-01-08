@@ -1,0 +1,255 @@
+.nav-text {
+	width: 100%;
+	z-index: 999;
+}
+
+.nav-text ul {
+	width: 100%;
+	height: 34px;
+	display: flex;
+	justify-content: center;
+	background-color: #000;
+	position: relative;
+	top: 20px;
+	z-index: 999;
+}
+
+.nav-text li {
+	width: 150px;
+	height: 34px;
+}
+
+.nav-text li a {
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-align: center;
+	transition: .6s;
+	z-index: 1;
+	background: url(../image/nav.png) no-repeat;
+}
+
+.nav-text li .lk1 {
+	background-position: -345px 0px;
+}
+
+.nav-text li .lk2 {
+	background-position: -505px 0px;
+}
+
+.nav-text li .lk3 {
+	background-position: -685px 0px;
+}
+
+.nav-text li .lk4 {
+	background-position: -860px 0px;
+}
+
+.nav-text li .lk5 {
+	background-position: -1035px 0px;
+}
+
+.nav-text li .lk6 {
+	background-position: -1220px 0px;
+}
+
+.nav-text li .lk7 {
+	background-position: -1330px 0px;
+}
+
+.nav-text li .lk8 {
+	background-position: -1480px 0px;
+}
+
+.nav-text li .lk1:hover {
+	background-position: -345px -36px;
+}
+
+.nav-text li .lk2:hover {
+	background-position: -505px -36px;
+}
+
+.nav-text li .lk3:hover {
+	background-position: -685px -36px;
+}
+
+.nav-text li .lk4:hover {
+	background-position: -860px -36px;
+}
+
+.nav-text li .lk5:hover {
+	background-position: -1035px -36px;
+}
+
+.nav-text li .lk6:hover {
+	background-position: -1220px -36px;
+}
+
+/* .nav-text li .lk7:hover {
+	background-position: -1330px -36px;
+}
+
+.nav-text li .lk8:hover {
+	background-position: -1480px -36px;
+} */
+
+/* ///导航部分结束 */
+
+
+
+/* 礼盒 */
+.main1 {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	top: 200px;
+}
+
+.main1 .xian {
+	background-size: cover;
+}
+
+.main1 .main1-warp {
+	padding: 0% 10%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	bottom: 180px;
+}
+
+.main1 .main1-warp img {
+	/* padding: 0% 4%; */
+	width: 300px;
+}
+
+/* ///礼盒 */
+
+
+
+/* 唇妆衣橱 */
+.main2 {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 100px;
+}
+
+.main2 .texts {
+	width: 100%;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main2 .texts .txt {
+	text-align: center;
+	line-height: 40px;
+}
+
+/* ///唇妆衣橱 */
+
+
+
+/* 脸部修正 */
+.main3 {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 200px;
+}
+
+.main3 .texts {
+	width: 100%;
+	color: #fff;
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+}
+
+.main3 .texts .txt {
+	text-align: center;
+	line-height: 40px;
+}
+/* ///脸部修正 */
+
+
+
+/* 明星产品 */
+.main4 {
+	width: 100%;
+	position: relative;
+	top: 300px;
+}
+.main4 .main-bg{
+	position: relative;
+	right: 100px;
+}
+.m4-bar {
+	width: 755px;
+	height: 420px;
+	position: absolute;
+	top: 30%;
+	right: 6%;
+}
+
+.m4-bar .imgs {
+	width: 300px;
+	height: 360px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.m4-bar .lun {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 40%;
+	right: 10%;
+}
+
+.m4-bar .lun span {
+	width: 11px;
+	height: 40px;
+	cursor: pointer;
+}
+
+/* ///明星产品 */
+
+
+
+/* 视频专区 */
+.main5 {
+	width: 100%;
+	position: relative;
+	top: 320px;
+}
+/* ///视频专区 */
+
+
+/* 礼盒 */
+.main6{
+	width: 100%;
+	position: relative;
+	top: 320px;
+	display: flex;
+	justify-content: center;
+}
+.main6 .main-bg{
+	width: 100%;
+}
+/* ///礼盒 */
+
+
+
+/* 尾页 */
+footer{
+	width: 1920px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 400px;
+}
+
+/* ///尾页 */
